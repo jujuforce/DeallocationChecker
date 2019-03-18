@@ -1,11 +1,10 @@
 Pod::Spec.new do |s|
   s.name         = "DeallocationChecker"
-  s.version      = "2.0.1"
+  s.version      = "3.0"
   s.summary      = "Learn about leaking view controllers without opening Instruments."
   s.description  = <<-DESC
     DeallocationChecker asserts that a view controller gets deallocated after
-    its view is removed from the view hierarchy. When you use the app, you'll
-    see assertion failures if your view controllers don't get deallocated.
+    its view is removed from the view hierarchy.
   DESC
   s.homepage     = "https://github.com/fastred/DeallocationChecker"
   s.license      = { :type => "MIT", :file => "LICENSE" }
